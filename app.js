@@ -13,9 +13,9 @@ const MongoClient = require('mongodb').MongoClient;
 //for the object id of the mongodb for sql people its pk kinda
 const ObjectID = require('mongodb').ObjectID;
 // Connection URL
-const url = 'mongodb://localhost:27017/todoapp';    //default url 27017
+const url = 'mongodb://test:test123@ds123312.mlab.com:23312/menulist';    //default url 27017
 // Database Name
-const dbName = 'todos';
+const dbName = 'menulist';
 
 
 //Body Parser Middlewware
